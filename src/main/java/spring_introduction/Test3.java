@@ -14,6 +14,11 @@ public class Test3 {
 
         Person person = context.getBean("myPerson", Person.class);
         person.callYourPet();
+
+//
+//        Person workPlace = context.getBean("myWork", Person.class);
+//        workPlace.showYourWork();
+
         context.close();
     }
 }

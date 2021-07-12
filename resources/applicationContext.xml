@@ -17,4 +17,8 @@
         <constructor-arg ref="myPet"/>
     </bean>
 
+<!--    <bean id = "myWork"-->
+<!--          class="spring_introduction.Person">-->
+<!--    </bean>-->
+
 </beans>

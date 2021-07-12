@@ -12,4 +12,8 @@ public class Person {
         System.out.println("Hello my lovely Pet!");
         pet.say();
     }
+
+    public void showYourWork(){
+        System.out.println("I work in IT");
+    }
 }
