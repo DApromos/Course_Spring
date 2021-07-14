@@ -18,8 +18,8 @@ public class Test3 {
         System.out.println(person.getSurname());
         System.out.println(person.getAge());
 
-//        Person workPlace = context.getBean("myWork", Person.class);
-//        workPlace.showYourWork();
+        Person workPlace = context.getBean("myWork", Person.class);
+        workPlace.showYourWork();
 
         context.close();
     }
