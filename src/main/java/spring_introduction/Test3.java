@@ -21,6 +21,7 @@ public class Test3 {
         Person workPlace = context.getBean("myWork", Person.class);
         workPlace.showYourWork();
 
+
         context.close();
     }
 }
