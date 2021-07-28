@@ -10,9 +10,9 @@
 
 
     <bean id = "myPet"
-          class = "spring_introduction.Dog">
+          class = "spring_introduction.Dog"
+          scope = "prototype">
     </bean>
-
 
 
 </beans>
