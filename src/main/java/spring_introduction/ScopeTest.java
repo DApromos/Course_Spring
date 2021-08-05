@@ -8,11 +8,13 @@ public class ScopeTest {
                 new ClassPathXmlApplicationContext("applicationContext3.xml");
 
         Dog myDog = context.getBean("dog", Dog.class);
-        Dog yourDog = context.getBean("dog", Dog.class);
+        myDog.say();
 
-        System.out.println("Variables refer to the same link: " + (myDog==yourDog));
-        System.out.println(myDog);
-        System.out.println(yourDog);
+//        Dog yourDog = context.getBean("dog", Dog.class);
+//
+//        System.out.println("Variables refer to the same link: " + (myDog==yourDog));
+//        System.out.println(myDog);
+//        System.out.println(yourDog);
 
         context.close();
 
